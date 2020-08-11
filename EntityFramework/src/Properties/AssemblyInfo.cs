@@ -34,15 +34,15 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MySql.Data.EntityFramework for EF6")]
-[assembly: AssemblyDescription("Entity Framework 6.0 supported")]
+//[assembly: AssemblyTitle("MySql.Data.EntityFramework for EF6")]
+//[assembly: AssemblyDescription("Entity Framework 6.0 supported")]
 
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Oracle")]
-[assembly: AssemblyProduct("MySql.Data.EntityFramework")]
-[assembly: AssemblyCopyright("Copyright © 2008, 2019, Oracle and/or its affiliates. All rights reserved.")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+//[assembly: AssemblyConfiguration("")]
+//[assembly: AssemblyCompany("Oracle")]
+//[assembly: AssemblyProduct("MySql.Data.EntityFramework")]
+//[assembly: AssemblyCopyright("Copyright © 2008, 2019, Oracle and/or its affiliates. All rights reserved.")]
+//[assembly: AssemblyTrademark("")]
+//[assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 

@@ -1,0 +1,15 @@
+D:\MyProjects\mysql-connector-net\EntityFramework\src\obj\Debug\netstandard2.0\MySql.Data.EntityFramework.csprojAssemblyReference.cache
+D:\MyProjects\mysql-connector-net\EntityFramework\src\obj\Debug\netstandard2.0\MySql.Data.EntityFramework.Properties.Resources.resources
+D:\MyProjects\mysql-connector-net\EntityFramework\src\obj\Debug\netstandard2.0\MySql.Data.EntityFramework.csproj.GenerateResource.cache
+D:\MyProjects\mysql-connector-net\EntityFramework\src\obj\Debug\netstandard2.0\MySql.Data.EntityFramework.AssemblyInfoInputs.cache
+D:\MyProjects\mysql-connector-net\EntityFramework\src\obj\Debug\netstandard2.0\MySql.Data.EntityFramework.AssemblyInfo.cs
+D:\MyProjects\mysql-connector-net\EntityFramework\src\obj\Debug\netstandard2.0\MySql.Data.EntityFramework.csproj.CoreCompileInputs.cache
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\libzstd.dll
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\MySql.Data.EntityFramework.dll.config
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\MySql.Data.EntityFramework.deps.json
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\MySql.Data.EntityFramework.dll
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\MySql.Data.dll
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\Zstandard.Net.dll
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\Ubiety.Dns.Core.dll
+D:\MyProjects\mysql-connector-net\EntityFramework\src\bin\Debug\netstandard2.0\MySql.Data.pdb
+D:\MyProjects\mysql-connector-net\EntityFramework\src\obj\Debug\netstandard2.0\MySql.Data.EntityFramework.csproj.CopyComplete

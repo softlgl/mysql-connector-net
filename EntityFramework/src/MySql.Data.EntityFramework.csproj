@@ -1,27 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>MySql.Data.EntityFramework</Description>
-    <Copyright>Copyright (c) 2016, 2020, Oracle and/or its affiliates. All rights reserved.</Copyright>
-    <NeutralLanguage>en-US</NeutralLanguage>
-    <Version>8.0.21</Version>
-    <Authors>Oracle</Authors>
-    <TargetFramework>net452</TargetFramework>
-    <NoWarn>$(NoWarn);CS1591</NoWarn>
-    <AssemblyName>MySql.Data.EntityFramework</AssemblyName>
-    <PackageId>MySql.Data.EntityFramework</PackageId>
-    <PackageTags>MySql;.NET Connector;MySql Connector/NET</PackageTags>
-    <PackageIconUrl>http://www.mysql.com/common/logos/logo-mysql-170x115.png</PackageIconUrl>
-    <PackageProjectUrl>https://dev.mysql.com/downloads/</PackageProjectUrl>
-    <PackageLicenseUrl>https://downloads.mysql.com/docs/licenses/connector-net-8.0-gpl-en.pdf</PackageLicenseUrl>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
-    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
 
   <ItemGroup>
     <None Remove="Properties\ProviderManifest.xml" />
@@ -61,10 +47,6 @@
     <EmbeddedResource Include="Properties\SchemaMapping.msl" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-
   <PropertyGroup>
     <DefineConstants>EF6;NET_40_OR_GREATER;NET_45_OR_GREATER</DefineConstants>
     <DelaySign>True</DelaySign>
@@ -92,17 +74,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="System.Data" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Security" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System" />
-    <Reference Include="Microsoft.CSharp" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="EFMySqlCommand.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -120,5 +91,4 @@
       <CustomToolNamespace></CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
-
 </Project>
