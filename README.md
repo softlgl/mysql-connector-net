@@ -1,4 +1,4 @@
-# MySQL Connector/NET
+# MySQL Connector/NET Support .Net Standard 2.1
 
 MySQL provides connectivity for client applications developed in .NET compatible programming languages with Connector/NET.
 
